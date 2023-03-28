@@ -52,12 +52,4 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-//Начало 2 части
-for (let i = 1; i < 2; i++) {
-    const a = prompt('Один из последних просмотренных фильмов?', ''),
-          b = prompt('На сколько оцените его?', '');
-    
-    personalMovieDB.movies[a] = b;
-}
-
 console.log(personalMovieDB);
